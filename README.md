@@ -12,6 +12,11 @@ GOOS=windows GOARCH=386 go build .
 
 ## Start it
 
+```
+# Start a Powershell Window
+.\dcos-diagnostics.exe --config dcos-diagnostics-config.json daemon
+```
+
 ## Test it
 
 ```
