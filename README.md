@@ -20,7 +20,7 @@ func getNodeInfo(tr http.RoundTripper) (nodeutil.NodeInfo, error) {
     if defaultConfig.FlagForceTLS {
         options = append(options, nodeutil.OptionMesosStateURL(defaultStateURL.String()))
     }
-    options = append(options, nodeutil.OptionDetectIP(`C:/dcos2/detect_ip.ps1`))
+    options = append(options, nodeutil.OptionDetectIP(`C:/dcos/detect_ip.ps1`))
     return nodeutil.NewNodeInfo(util.NewHTTPClient(defaultConfig.GetHTTPTimeout(), tr), defaultConfig.FlagRole, options...)
 }
 ```
