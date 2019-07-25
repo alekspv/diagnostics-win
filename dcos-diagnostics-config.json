@@ -1,0 +1,5 @@
+{
+  "role": "agent",
+  "endpoint-config": "c:/dcos/etc/dcos-diagnostics-endpoint-config.json",
+  "agent-port": 61001
+}

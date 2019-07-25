@@ -1,0 +1,63 @@
+{
+  "HTTPEndpoints": [
+    {
+      "Port": 5051,
+      "Uri": "/overlay-agent/overlay",
+      "Role": [
+        "agent"
+      ]
+    },
+    {
+      "Port": 5051,
+      "Uri": "/__processes__",
+      "Role": [
+        "agent"
+      ]
+    },
+    {
+      "Port": 5051,
+      "Uri": "/metrics/snapshot",
+      "Role": [
+        "agent"
+      ]
+    },
+    {
+      "Port": 5051,
+      "Uri": "/flags",
+      "Role": [
+        "agent"
+      ]
+    },
+    {
+      "Port": 5051,
+      "Uri": "/state",
+      "Role": [
+        "agent"
+      ]
+    },
+    {
+      "Port": 5051,
+      "Uri": "/system/stats.json",
+      "Role": [
+        "agent"
+      ]
+    },
+    {
+      "Port": 5051,
+      "Uri": "/containers",
+      "Role": [
+        "agent"
+      ]
+    }
+  ],
+  "LocalFiles": [
+    {
+      "Location": "c:/dcos/log/mesos-agent.log",
+      "Role": [
+        "agent"
+      ]
+    }
+  ],
+  "LocalCommands": [
+  ]
+}
